@@ -2,7 +2,6 @@
 name: update-github-info
 description: Keep the GitHub Info page current with practical, source-backed updates.
 engine: copilot
-model: gpt-4o-mini
 on:
   schedule:
     - cron: "0 9 * * *"
@@ -33,6 +32,8 @@ strict: true
 # Update GitHub Info
 
 Keep Mona's GitHub Info page current using official GitHub sources.
+
+Use the Copilot CLI's automatic model selection and an available free-tier Copilot model. Do not request a model-specific reasoning effort.
 
 1. Read `notes/mona-notes.md` and `site/content/github-info.md`.
 2. Use the GitHub repository API tools to read any repository guidance or reference files you need. Do not use terminal, CLI, or sandboxed commands for that repository guidance or reference reading.
