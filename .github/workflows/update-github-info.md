@@ -2,6 +2,7 @@
 name: update-github-info
 description: Keep the GitHub Info page current with practical, source-backed updates.
 engine: copilot
+model: gpt-5.6-luna
 on:
   schedule:
     - cron: "0 9 * * *"
