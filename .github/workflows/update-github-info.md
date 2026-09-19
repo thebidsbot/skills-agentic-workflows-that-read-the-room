@@ -24,6 +24,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 strict: true
 ---
 
@@ -36,6 +37,7 @@ Keep Mona's GitHub Info page current using official GitHub sources.
 3. Use the web-fetch tool to read:
    - https://github.blog/latest/
    - https://github.blog/changelog/
-4. Identify only concise, practical updates that help developers learn GitHub faster. Prefer information that is new or meaningfully useful, and cite the relevant GitHub Blog or GitHub Changelog source in the content.
+  - https://awesome-copilot.github.com/workflows/
+4. Identify only concise, practical updates that help developers learn GitHub faster. Use GitHub Blog, GitHub Changelog, and Awesome Copilot workflows as official or curated sources, and cite the relevant source in the content.
 5. Update only `site/content/github-info.md`. Preserve its existing structure and editorial angle; do not invent facts or add filler. If there is no worthwhile update, leave the file unchanged.
 6. When the file needs an update, use the `create-pull-request` safe output to propose the change for Mona to review. Do not write directly to the default branch. Use a clear PR title and summarize the sources and changes in the PR body.
