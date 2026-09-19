@@ -1,6 +1,7 @@
 ---
 name: update-github-info
 description: Keep the GitHub Info page current with practical, source-backed updates.
+engine: copilot
 on:
   schedule:
     - cron: "0 9 * * *"
